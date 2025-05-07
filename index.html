@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manipulated Yelp Reviews</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Manipulated Yelp Reviews</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#incident">The Incident</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#response">Yelp’s Response</a></li>
+        <li><a href="#prevention">Prevention</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="incident">
+    <h2>The Incident</h2>
+    <p>Businesses were found to be purchasing fake reviews on Yelp to boost their ratings. Yelp has been accused of filtering and promoting reviews in ways that benefit paying businesses. In 2014, a court ruled that Yelp is legally allowed to manipulate how reviews appear on its site.</p>
+
+    <div class="timeline">
+      <div class="event">
+        <h3>2010</h3>
+        <p>Businesses begin to exploit Yelp with fake reviews to enhance reputations.</p>
+      </div>
+      <div class="event">
+        <h3>2014</h3>
+        <p>SF court rules Yelp can manipulate review visibility without legal penalty.</p>
+      </div>
+      <div class="event">
+        <h3>2023</h3>
+        <p>New federal regulations target deceptive online review practices.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="impact">
+    <h2>Impact</h2>
+    <p>Fake Yelp reviews affect consumer trust and distort business reputations. Consumers may make poor decisions, and ethical businesses suffer unfairly due to manipulated visibility.</p>
+  </section>
+
+  <section id="response">
+    <h2>Yelp’s Response</h2>
+    <p>Yelp has developed automated filters and consumer alerts to flag suspicious reviews. However, critics argue the system lacks transparency and may favor advertisers.</p>
+  </section>
+
+  <section id="prevention">
+    <h2>Prevention</h2>
+    <p>To avoid being misled, consumers should read reviews critically, check for vague language or repeated phrases, and compare across platforms. Regulators now enforce penalties for companies posting fake reviews.</p>
+  </section>
+
+  <section id="quiz">
+    <h2>Can You Spot the Fake Review?</h2>
+    <p>Which of the following reviews is more likely to be fake?</p>
+    <div>
+      <button onclick="checkAnswer('A')">A. “Absolutely perfect. Best meal I’ve ever had!! 😍”</button><br><br>
+      <button onclick="checkAnswer('B')">B. “Decent food, but the wait was too long. Not sure I’d return.”</button>
+    </div>
+    <p id="result"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 | Research Project on Yelp Review Manipulation</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f4f8;  /* Light gray background */
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #2c3e50;  /* Deep blue-gray background */
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;  /* Larger font for header */
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #34495e;  /* Darker gray for nav */
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+.navbar ul li {
+  margin: 0 1.5rem;  /* More spacing for clarity */
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;  /* Slightly larger text for clarity */
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #ffa500;  /* Vibrant orange on hover */
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  border-radius: 8px;  /* Rounded corners for sections */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* Light shadow for depth */
+  margin-bottom: 2rem;  /* Space between sections */
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.timeline {
+  border-left: 5px solid #ffa500;  /* Orange accent line */
+  margin-left: 20px;
+  padding-left: 20px;
+  margin-top: 2rem;
+}
+
+.event {
+  margin: 25px 0;
+}
+
+.event p {
+  background-color: #fff8e1;  /* Soft yellow background */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+#quiz button {
+  background-color: #ffa500;  /* Vibrant orange for buttons */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 1.1rem;  /* Larger button text */
+  margin-top: 1rem;
+}
+
+#quiz button:hover {
+  background-color: #e69500;  /* Darker orange on hover */
+}
+
+#result {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #2c3e50;  /* Deep blue-gray background for footer */
+  color: white;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
